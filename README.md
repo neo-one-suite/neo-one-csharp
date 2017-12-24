@@ -27,7 +27,7 @@ const execFile = require('child_process').execFile;
 const csharp = require('@neo-one/csharp');
 
 execFile(csharp, ['sc.dll'], (err, stdout) => {
-	console.log(stdout);
+  console.log(stdout);
 });
 ```
 
